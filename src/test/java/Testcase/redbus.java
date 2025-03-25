@@ -24,12 +24,13 @@ public class redbus {
 	@Test
 	
 	public void Demo() throws Throwable {
-		ChromeOptions options = new ChromeOptions();
-		// REMOVE or COMMENT OUT this line if present
-		// options.addArguments("--headless"); 
-		options.addArguments("--disable-gpu");  // Avoid issues with headless environments
-		options.addArguments("--start-maximized"); // Ensure full browser window
-		WebDriver driver = new ChromeDriver(options);
+		
+		//System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
+
+		
+		WebDriver driver = new ChromeDriver();
 
 		  //WebDriverManager.chromedriver().setup();
 	//WebDriver driver=new ChromeDriver();
