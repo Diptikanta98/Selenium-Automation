@@ -29,10 +29,6 @@ public class redbus {
 	driver.manage().window().maximize();
 	//WebDriverWait wait=new WebDriverWait(driver, 10);
 	Thread.sleep(2000);
-	
-	
-	
-	
 	driver.findElement(By.xpath("//i[@class='sc-cSHVUG NyvQv icon icon-datev2']")).click();
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	js.executeScript("window.scrollBy(0,250)", "");
