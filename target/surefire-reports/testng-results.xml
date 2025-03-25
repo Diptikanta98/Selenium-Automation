@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T00:21:48 IST" name="Suite" finished-at="2025-03-26T00:22:03 IST" duration-ms="14937">
+  <suite started-at="2025-03-26T00:33:03 IST" name="Suite" finished-at="2025-03-26T00:33:16 IST" duration-ms="12441">
     <groups>
     </groups>
-    <test started-at="2025-03-26T00:21:48 IST" name="Test" finished-at="2025-03-26T00:22:03 IST" duration-ms="14937">
+    <test started-at="2025-03-26T00:33:03 IST" name="Test" finished-at="2025-03-26T00:33:16 IST" duration-ms="12441">
       <class name="Testcase.redbus">
-        <test-method signature="Demo()[pri:0, instance:Testcase.redbus@76508ed1]" started-at="2025-03-26T00:21:48 IST" name="Demo" finished-at="2025-03-26T00:21:55 IST" duration-ms="7738" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:Testcase.redbus@7c729a55]" started-at="2025-03-26T00:33:03 IST" name="Demo" finished-at="2025-03-26T00:33:10 IST" duration-ms="7112" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
       </class> <!-- Testcase.redbus -->
       <class name="Testcase.weekends">
-        <test-method signature="Demo()[pri:0, instance:Testcase.weekends@481a996b]" started-at="2025-03-26T00:21:56 IST" name="Demo" finished-at="2025-03-26T00:22:03 IST" duration-ms="7161" status="PASS">
+        <test-method signature="Demo()[pri:0, instance:Testcase.weekends@1fa268de]" started-at="2025-03-26T00:33:10 IST" name="Demo" finished-at="2025-03-26T00:33:16 IST" duration-ms="5303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
