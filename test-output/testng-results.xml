@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-26T00:13:48 IST" name="Default suite" finished-at="2025-03-26T00:13:57 IST" duration-ms="8156">
+  <suite started-at="2025-03-26T00:21:31 IST" name="Default suite" finished-at="2025-03-26T00:21:38 IST" duration-ms="6928">
     <groups>
     </groups>
-    <test started-at="2025-03-26T00:13:48 IST" name="Default test" finished-at="2025-03-26T00:13:57 IST" duration-ms="8156">
-      <class name="Testcase.redbus">
-        <test-method signature="Demo()[pri:0, instance:Testcase.redbus@31190526]" started-at="2025-03-26T00:13:48 IST" name="Demo" finished-at="2025-03-26T00:13:57 IST" duration-ms="8131" status="PASS">
+    <test started-at="2025-03-26T00:21:31 IST" name="Default test" finished-at="2025-03-26T00:21:38 IST" duration-ms="6928">
+      <class name="Testcase.weekends">
+        <test-method signature="Demo()[pri:0, instance:Testcase.weekends@229f66ed]" started-at="2025-03-26T00:21:31 IST" name="Demo" finished-at="2025-03-26T00:21:38 IST" duration-ms="6897" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Demo -->
-      </class> <!-- Testcase.redbus -->
+      </class> <!-- Testcase.weekends -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

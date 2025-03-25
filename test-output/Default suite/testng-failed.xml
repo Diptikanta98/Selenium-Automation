@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testcase.redbus">
+      <class name="Testcase.weekends">
         <methods>
           <include name="Demo"/>
         </methods>
-      </class> <!-- Testcase.redbus -->
+      </class> <!-- Testcase.weekends -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

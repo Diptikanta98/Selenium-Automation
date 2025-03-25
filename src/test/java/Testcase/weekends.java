@@ -19,6 +19,7 @@ public class weekends {
 	@Test
 	public void Demo() {
 		
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
 		  WebDriver driver = new ChromeDriver();
 	        driver.get("https://www.redbus.in/");
@@ -46,9 +47,12 @@ public class weekends {
 	    	for (WebElement webElement : calender) {
 	    		System.out.println(webElement.getText());
 				
+	    		
 			}
 	            
 	        }
+	    	
+	    	driver.close();
 	}
 }
 

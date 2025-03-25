@@ -27,7 +27,7 @@ public class redbus {
 		
 		//System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
 		
 		WebDriver driver = new ChromeDriver();
@@ -66,6 +66,10 @@ public class redbus {
 	}
 	driver.findElement(By.xpath("//span[text()='26']")).click();
 	js.executeScript("window.scrollBy(0,-250)", "");
+	
+	
+	
+	driver.close();
 	    }
 
 	
