@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -23,9 +24,15 @@ public class redbus {
 	@Test
 	
 	public void Demo() throws Throwable {
-		
+		ChromeOptions options = new ChromeOptions();
+		// REMOVE or COMMENT OUT this line if present
+		// options.addArguments("--headless"); 
+		options.addArguments("--disable-gpu");  // Avoid issues with headless environments
+		options.addArguments("--start-maximized"); // Ensure full browser window
+		WebDriver driver = new ChromeDriver(options);
+
 		  //WebDriverManager.chromedriver().setup();
-	WebDriver driver=new ChromeDriver();
+	//WebDriver driver=new ChromeDriver();
 	
 	//System.setProperties("C:\Users\HP\eclipse-workspace\Selenium\chromedriver.exe");
 
