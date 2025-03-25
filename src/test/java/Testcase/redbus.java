@@ -8,6 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.util.List;
 
 import javax.xml.datatype.Duration;
@@ -22,8 +24,10 @@ public class redbus {
 	
 	public void Demo() throws Throwable {
 		
-
+		  //WebDriverManager.chromedriver().setup();
 	WebDriver driver=new ChromeDriver();
+	
+	//System.setProperties("C:\Users\HP\eclipse-workspace\Selenium\chromedriver.exe");
 
 	driver.get("https://www.redbus.in/");
 	driver.manage().window().maximize();
