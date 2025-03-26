@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+import java.net.Socket;
 import java.util.List;
 
 import javax.xml.datatype.Duration;
@@ -26,6 +27,7 @@ public class redbus {
 	public void Demo() throws Throwable {
 		
 		//System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+		
 
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
@@ -36,7 +38,7 @@ public class redbus {
 	//WebDriver driver=new ChromeDriver();
 	
 	//System.setProperties("C:\Users\HP\eclipse-workspace\Selenium\chromedriver.exe");
-
+	
 	driver.get("https://www.redbus.in/");
 	driver.manage().window().maximize();
 	//WebDriverWait wait=new WebDriverWait(driver, 10);
@@ -69,7 +71,7 @@ public class redbus {
 	
 	
 	
-	driver.close();
+	driver.quit();
 	    }
 
 	

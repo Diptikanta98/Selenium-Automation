@@ -3,6 +3,7 @@ package Testcase;
 import java.util.List;
 
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.*;
@@ -19,9 +20,10 @@ public class weekends {
 	@Test
 	public void Demo() {
 		
+
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\HP\\eclipse-workspace\\Selenium\\chromedriver.exe");
 
-		  WebDriver driver = new ChromeDriver();
+		 WebDriver driver = new ChromeDriver();
 	        driver.get("https://www.redbus.in/");
 	        driver.manage().window().maximize();
 
@@ -52,7 +54,7 @@ public class weekends {
 	            
 	        }
 	    	
-	    	driver.close();
+	    	driver.quit();
 	}
 }
 
