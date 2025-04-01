@@ -56,10 +56,9 @@ public class weekends {
 	    	
 	    	driver.quit();
 	    	//Diptikanta
-	    	//ABD
-	    	//Rakesh23
-
+	        //Rakesh23
 	}
+	//Jena
 }
 
 	
